@@ -1,0 +1,48 @@
+.searchHeader {
+    margin-top: 60px; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    margin-left: 0; 
+    color: rgb(112, 133, 114);
+    
+  }
+
+  .searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px; 
+  }
+  
+  .searchInput {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    width: 500px;
+    height: 50px;
+    background-image: url('/search.png'); 
+    background-size: 20px; 
+    background-position: 95% center; 
+    background-repeat: no-repeat; 
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+
+  .calendarContainer {
+    position: absolute; /* Absolut position för att placera kalendern */
+    top: 10rem; /* Justera toppositionen efter behov */
+    left: 80px; /* Justera vänsterpositionen efter behov */
+  }
+  

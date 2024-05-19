@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@syncfusion/ej2-react-calendars": "^25.1.42",
+    "react-datepicker": "^6.9.0"
+  }
+}

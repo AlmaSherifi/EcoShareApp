@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 6rem;
+    min-height: 100vh;
+    text-align: center;
+    background-image: 
+    linear-gradient(to top, rgba(255, 255, 255, 0.9) 60%, transparent), /* Vit gradient till vänster */
+    url('/thingss.jpeg'); /* Ange bakgrundsbilden för hela sidan */
+    background-size: 1500px 450px; /* Exakta dimensioner i pixlar */
+    background-repeat: no-repeat; /* Förhindra upprepning av bakgrundsbilden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-color: rgb(255, 255, 255);
+  }
+
+  

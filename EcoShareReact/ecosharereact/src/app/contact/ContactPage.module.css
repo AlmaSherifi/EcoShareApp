@@ -1,0 +1,27 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 50px; 
+    position: relative;
+    top: 10rem;
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactList li {
+    margin-bottom: 10px;
+}
+
+.contactList a {
+    color: blue; 
+    text-decoration: none;
+}
+
+.contactList a:hover {
+    text-decoration: underline; 
+}

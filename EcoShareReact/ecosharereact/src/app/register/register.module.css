@@ -1,0 +1,36 @@
+.registerContainer {
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: 10rem; /* Justera positionen neråt */
+    background-color: #fff;
+}
+
+.registerContainer h2 {
+    margin-bottom: 20px; /* Öka avståndet mellan rubriken och formuläret */
+}
+
+.registerContainer form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* Öka avståndet mellan input-fälten */
+    padding: 12px; /* Öka padding för att göra input-fälten lite större */
+    font-size: 18px; /* Öka textstorleken för input-fälten */
+    border: 1px solid #ccc; /* Lägg till en 1px solid grå ram runt inputfältet */
+    border-radius: 5px; /* Avrunda hörnen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lägg till en lätt skugga under inputfältet */
+}
+
+.registerContainer form button {
+    width: 100%;
+    padding: 10px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    cursor: pointer;
+}
