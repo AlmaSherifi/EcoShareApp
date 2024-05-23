@@ -20,3 +20,4 @@ För att kunna köra denna applikationen behöver du ha följande installerat:
 1. Klona repositoryt.
 2. Öppna terminalen i EcoShareReact mappen och skriv:
    npm install och sedan npm run dev för att starta applikationen.
+   (VIKTIGT att API:et är igång med.)
